@@ -1,0 +1,142 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.clr{
+	clear:both;
+}
+a{
+	text-decoration: none;
+	color:#000;
+}
+a:hover{
+	color: red; 
+}
+body{
+	font-family: Arial;
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 2em;
+}
+.box-1{
+	background-color:#333;
+	color:#fff;
+	border: 5px red solid;
+	border-radius: 5%;
+	border-width: 3px;
+	padding: 20px 20px;
+	margin-top:20px;
+}
+.container{
+	width: 80%;
+	margin: auto;
+}
+.box-1 h1{
+	font-family: Tahoma;
+	font-weight: 800;
+	font-style: italic;
+	text-decoration: underline;
+	text-transform: uppercase;
+	letter-spacing: 0.2em; 
+}
+.box-2{
+	border: 3px dotted #ccc;
+	padding: 20px;
+	margin: 10px 0;
+}
+.categories{
+	
+	
+	border:1px solid #c3c3c3; 
+	list-style:none;
+}
+.categories li{
+	padding: 10px;
+	margin:5%;
+	padding-bottom: 6px;
+	border-bottom: dotted 1px #333;
+	list-style-type: square;
+}
+
+.categories ul li a{
+	color: white;
+}
+.categories h3{
+	text-align: center;
+	padding-bottom: 50px;
+}
+form .myform{
+	padding:20px;
+}
+.myform label{
+	display: block;
+}
+.myform input[type="text"], .myform textarea {
+	padding: 8px;
+	width: 100%;
+}
+.myform input[type="password"] {
+	width: 100%;
+}
+.button {
+	background-color:#333;
+	margin-top: 5%;
+	color: #fff;
+	position: inherit;
+	padding: 10px ;
+	border: none;
+	width: 100%;
+}
+.button:hover{
+	background-color: #fff;
+	color:red;
+	cursor: pointer;
+}
+.block{
+	float:left;
+	width: 33.3%;
+	border:1px solid #ccc;
+	padding: 10px;
+	box-sizing: border-box;
+}
+#mainblock{
+	float:left;
+	width: 70%;
+}
+#sidebar{
+	float:right;
+	width: 30%;
+	background-color: #333;
+	color:#fff;
+	padding: 15px;
+	box-sizing: border-box;
+}
+.p-box{
+	height: 600px;
+	width: 100%;
+	border: 1px solid #ccc;
+	margin-top: 30px;
+	position: relative;
+	background-image: url("images/bg.jpg");
+	background-size: 100% ;
+	background-repeat: no-repeat;
+	box-sizing: border-box;
+	background-position: center center;
+	z-index:-2;
+}
+.p-box h1{
+	position: absolute;
+	top:110px;
+	z-index:1;
+}
+.p-box h2{
+	position: absolute;
+	bottom: 40px;
+	right: 40px;
+}
+.fix-me{
+	position: fixed;
+	top:150px;
+	width: 10%;
+	left:10px;
+}
